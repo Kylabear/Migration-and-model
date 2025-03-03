@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('LOG_CHANNEL', 'stack'),
+    'default' => env('LOG_CHANNEL', 'stack')
 
     /*
     |--------------------------------------------------------------------------
@@ -61,7 +61,7 @@ return [
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
-            'level' => env('LOG_LEVEL', 'debug'),
+['single'],            'level' => env('LOG_LEVEL', 'debug'),
             'replace_placeholders' => true,
         ],
 
